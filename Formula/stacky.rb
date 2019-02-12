@@ -1,11 +1,10 @@
-
 class Stacky < Formula
   include Language::Python::Virtualenv
   desc "Stacky"
   homepage "https://github.com/mega-mac-slice/stacky"
-  url "https://raw.githubusercontent.com/mega-mac-slice/stacky/master/dist/stacky-0.0.1.tar.gz"
-  sha256 "758e6b63bf23bf2c0a29d085a2d5bd0907ba6ce0e3ab51ab3b7883f7ece9fc65"
-  version "0.0.1"
+  url "https://raw.githubusercontent.com/mega-mac-slice/stacky/master/dist/stacky-0.0.2.tar.gz"
+  sha256 "d8fad884229c26db592caa982937c850a4018a943766afeb79ddf18bebd3e7cc"
+  version "0.0.2"
   depends_on "python"
   depends_on "python3"
   def install
